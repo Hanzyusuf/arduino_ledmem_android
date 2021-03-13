@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:id="@+id/activity_main_menu_fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/main_menu_bg">
+
+        <LinearLayout
+            android:id="@+id/activity_main_menu_fullscreen_content_controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/common_margin_smallest"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/activity_main_menu_tv_connection_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_margin_smaller"
+                    android:text="DISCONNECTED"
+                    android:textColor="@color/STATUS_DISCONNECTED"
+                    android:textSize="@dimen/common_text_size_min"
+                    android:fontFamily="@font/concert_one_regular"/>
+
+                <Button
+                    android:id="@+id/activity_main_menu_btn_connect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FIND DEVICES"
+                    android:textSize="@dimen/common_text_size_min"
+                    android:stateListAnimator="@null"
+                    android:elevation="@dimen/common_elevation_medium"
+                    android:backgroundTint="#E4EFF4"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/common_margin_medium"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/activity_main_menu_btn_easy"
+                    android:layout_width="@dimen/activity_main_menu_btn_difficulty_width"
+                    android:layout_height="@dimen/activity_main_menu_btn_difficulty_height"
+                    android:layout_margin="@dimen/common_margin_medium"
+                    android:background="@drawable/selector_main_menu_btn_easy_button"
+                    android:text="EASY"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/concert_one_regular"
+                    android:textSize="@dimen/common_text_size_small"
+                    android:stateListAnimator="@null"
+                    android:elevation="@dimen/common_elevation_medium" />
+
+                <Button
+                    android:id="@+id/activity_main_menu_btn_medium"
+                    android:layout_width="@dimen/activity_main_menu_btn_difficulty_width"
+                    android:layout_height="@dimen/activity_main_menu_btn_difficulty_height"
+                    android:layout_margin="@dimen/common_margin_medium"
+                    android:background="@drawable/selector_main_menu_btn_medium_button"
+                    android:text="Medium"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/concert_one_regular"
+                    android:textSize="@dimen/common_text_size_small"
+                    android:stateListAnimator="@null"
+                    android:elevation="@dimen/common_elevation_medium" />
+
+                <Button
+                    android:id="@+id/activity_main_menu_btn_hard"
+                    android:layout_width="@dimen/activity_main_menu_btn_difficulty_width"
+                    android:layout_height="@dimen/activity_main_menu_btn_difficulty_height"
+                    android:layout_margin="@dimen/common_margin_medium"
+                    android:background="@drawable/selector_main_menu_btn_hard_button"
+                    android:text="Hard"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/concert_one_regular"
+                    android:textSize="@dimen/common_text_size_small"
+                    android:stateListAnimator="@null"
+                    android:elevation="@dimen/common_elevation_medium" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </FrameLayout>
+
+</FrameLayout>

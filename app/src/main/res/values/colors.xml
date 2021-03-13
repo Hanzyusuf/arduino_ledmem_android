@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="COMPATIBILITY_UNKNOWN">#FFC107</color>
+    <color name="COMPATIBILITY_COMPATIBLE">#1CB516</color>
+    <color name="COMPATIBILITY_INCOMPATIBLE">#E12222</color>
+
+    <color name="RSSI_EXCELLENT">#1CB516</color>
+    <color name="RSSI_GOOD">#03A9F4</color>
+    <color name="RSSI_FAIR">#FFC107</color>
+    <color name="RSSI_WEAK">#E12222</color>
+    <color name="RSSI_POOR">#E12222</color>
+
+    <color name="GAME_OVER">#E12222</color>
+
+    <color name="STATUS_CONNECTED">#1CB516</color>
+    <color name="STATUS_CONNECTING">#FFC107</color>
+    <color name="STATUS_INITIALIZING">#3290DC</color>
+    <color name="STATUS_DISCONNECTED">#E12222</color>
+
+    <color name="colorPrimary">#3290DC</color>
+    <color name="colorPrimaryDark">#FFC107</color>
+    <color name="colorAccent">#F44336</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

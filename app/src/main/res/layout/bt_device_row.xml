@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bt_device_row_rootView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_margin="@dimen/common_text_size_smallest"
+    app:cardCornerRadius="@dimen/common_margin_smallest"
+    app:cardElevation="@dimen/common_margin_smaller">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/common_margin_smaller"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rowCount="3"
+                android:columnCount="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/common_margin_medium"
+                    android:textSize="@dimen/common_text_size_min"
+                    android:text="Name:" />
+
+                <TextView
+                    android:id="@+id/bt_device_row_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/common_text_size_min"
+                    android:text="googly goo :)" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/common_margin_medium"
+                    android:textSize="@dimen/common_text_size_min"
+                    android:text="Mac:" />
+
+                <TextView
+                    android:id="@+id/bt_device_row_mac"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/common_text_size_min"
+                    android:text="00:AA:11:BB:22:CC" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/common_margin_medium"
+                    android:textSize="@dimen/common_text_size_min"
+                    android:text="Compatible:" />
+
+                <TextView
+                    android:id="@+id/bt_device_row_compatible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/common_text_size_min"
+                    android:textColor="@color/COMPATIBILITY_UNKNOWN"
+                    android:text="@string/COMPATIBILITY_UNKNOWN" />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bt_device_row_rssi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/common_margin_smaller"
+            android:layout_gravity="center_vertical|end"
+            android:tint="@color/RSSI_GOOD"
+            app:srcCompat="@drawable/ic_signal_bar"
+            tools:src="@drawable/ic_signal_3_bar"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="RSSI_EXCELLENT">100</integer>
+    <integer name="RSSI_GOOD">65</integer>
+    <integer name="RSSI_FAIR">45</integer>
+    <integer name="RSSI_WEAK">28</integer>
+    <integer name="RSSI_POOR">10</integer>
+
+</resources>

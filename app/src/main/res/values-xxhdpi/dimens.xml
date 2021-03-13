@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--    COMMON      -->
+
+	<!--margin-->
+	<dimen name="common_margin_smallest">4dp</dimen>
+	<dimen name="common_margin_smaller">8dp</dimen>
+	<dimen name="common_margin_small">12dp</dimen>
+	<dimen name="common_margin_medium">16dp</dimen>
+	<dimen name="common_margin_large">20dp</dimen>
+	<dimen name="common_margin_larger">24dp</dimen>
+	<dimen name="common_margin_largest">28dp</dimen>
+	<!--text size-->
+	<dimen name="common_text_size_min">12sp</dimen>
+	<dimen name="common_text_size_smallest">14sp</dimen>
+	<dimen name="common_text_size_smaller">16sp</dimen>
+	<dimen name="common_text_size_small">18sp</dimen>
+	<dimen name="common_text_size_medium">20sp</dimen>
+	<dimen name="common_text_size_large">24sp</dimen>
+	<dimen name="common_text_size_larger">32sp</dimen>
+	<dimen name="common_text_size_largest">40sp</dimen>
+	<dimen name="common_text_size_max">48sp</dimen>
+	<!--elevation-->
+	<dimen name="common_elevation_highest">16dp</dimen>
+	<dimen name="common_elevation_high">12dp</dimen>
+	<dimen name="common_elevation_medium">8dp</dimen>
+	<dimen name="common_elevation_low">4dp</dimen>
+	<dimen name="common_elevation_lowest">2dp</dimen>
+
+	<!--    UNIQUE      -->
+
+	<!--activity_main_menu-->
+	<dimen name="activity_main_menu_btn_difficulty_width">120dp</dimen>
+	<dimen name="activity_main_menu_btn_difficulty_height">80dp</dimen>
+
+	<!--activity_in_game-->
+	<dimen name="activity_in_game_btn_led_width">110dp</dimen>
+	<dimen name="activity_in_game_btn_led_height">110dp</dimen>
+	<dimen name="activity_in_game_btn_home_width">80dp</dimen>
+	<dimen name="activity_in_game_btn_home_height">80dp</dimen>
+	<dimen name="activity_in_game_btn_restart_width">80dp</dimen>
+	<dimen name="activity_in_game_btn_restart_height">80dp</dimen>
+	<dimen name="activity_in_game_btn_godmode_width">110dp</dimen>
+	<dimen name="activity_in_game_btn_godmode_height">110dp</dimen>
+
+	<!--custom_progress_dialog-->
+	<dimen name="custom_progress_dialog_img_width">99dp</dimen> <!-- img is 330x200 or 1.65:1 -->
+	<dimen name="custom_progress_dialog_img_height">60dp</dimen>
+
+	<!--info-->
+	<dimen name="info_img_width">80dp</dimen>
+	<dimen name="info_img_height">80dp</dimen>
+
+</resources>

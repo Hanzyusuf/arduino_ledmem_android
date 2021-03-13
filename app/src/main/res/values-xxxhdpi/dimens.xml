@@ -1,0 +1,37 @@
+<resources>
+	<dimen name="activity_in_game_btn_godmode_width">137.5dp</dimen>
+	<dimen name="custom_progress_dialog_img_width">123.8dp</dimen>
+	<dimen name="common_margin_smallest">5dp</dimen>
+	<dimen name="activity_in_game_btn_godmode_height">137.5dp</dimen>
+	<dimen name="common_margin_smaller">10dp</dimen>
+	<dimen name="common_margin_large">25dp</dimen>
+	<dimen name="activity_in_game_btn_led_width">137.5dp</dimen>
+	<dimen name="common_elevation_medium">10dp</dimen>
+	<dimen name="activity_in_game_btn_home_width">100dp</dimen>
+	<dimen name="activity_in_game_btn_restart_width">100dp</dimen>
+	<dimen name="common_margin_small">15dp</dimen>
+	<dimen name="info_img_width">100dp</dimen>
+	<dimen name="activity_in_game_btn_restart_height">100dp</dimen>
+	<dimen name="common_elevation_low">5dp</dimen>
+	<dimen name="activity_main_menu_btn_difficulty_width">150dp</dimen>
+	<dimen name="activity_in_game_btn_led_height">137.5dp</dimen>
+	<dimen name="common_margin_larger">30dp</dimen>
+	<dimen name="activity_in_game_btn_home_height">100dp</dimen>
+	<dimen name="custom_progress_dialog_img_height">75dp</dimen>
+	<dimen name="common_margin_medium">20dp</dimen>
+	<dimen name="activity_main_menu_btn_difficulty_height">100dp</dimen>
+	<dimen name="common_elevation_high">15dp</dimen>
+	<dimen name="common_elevation_highest">20dp</dimen>
+	<dimen name="common_elevation_lowest">2.5dp</dimen>
+	<dimen name="common_margin_largest">35dp</dimen>
+	<dimen name="info_img_height">100dp</dimen>
+	<dimen name="common_text_size_min">15sp</dimen>
+	<dimen name="common_text_size_medium">25sp</dimen>
+	<dimen name="common_text_size_max">60sp</dimen>
+	<dimen name="common_text_size_smallest">17.5sp</dimen>
+	<dimen name="common_text_size_large">30sp</dimen>
+	<dimen name="common_text_size_larger">40sp</dimen>
+	<dimen name="common_text_size_smaller">20sp</dimen>
+	<dimen name="common_text_size_largest">50sp</dimen>
+	<dimen name="common_text_size_small">22.5sp</dimen>
+</resources>

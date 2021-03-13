@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/common_margin_medium"
+    app:cardElevation="@dimen/common_margin_medium">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/common_margin_medium"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/custom_progress_dialog_spin_img"
+            android:layout_width="@dimen/custom_progress_dialog_img_width"
+            android:layout_height="@dimen/custom_progress_dialog_img_height"
+            android:adjustViewBounds="true"
+            android:background="@drawable/anim_blinking_led"
+            android:contentDescription="loading..."/>
+
+        <TextView
+            android:id="@+id/custom_progress_dialog_spin_img_message"
+            android:layout_marginTop="@dimen/common_margin_smallest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="@dimen/common_text_size_smaller"
+            android:text="please wait..." />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

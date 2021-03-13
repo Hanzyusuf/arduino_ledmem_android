@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@mipmap/led_group_lit_red"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/led_group_lit_green"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/led_group_lit_blue"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/led_group_lit_yellow"
+        android:duration="200" />
+</animation-list>
